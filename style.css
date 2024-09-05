@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+
+nav{
+    min-height:  100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 5px solid black;
+}
+
+.navlinks{
+    text-align: center;
+    color: whitesmoke;
+    display: inline;
+    list-style: lower-greek;
+}
+
+.logo{
+    height: 50px    ;
+    border-radius: 90px;
+    display: inline;
+    box-shadow: whitesmoke 2px 2px;
+}   
+
+.headercontainer{
+    height: 100vh;
+    background-image: url(media/header.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clickheader{
+    height: 70vh;
+    background-image: url(media/fiere.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headercard{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.801);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.cards{
+    min-width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px black;
+}
+
+.articlebox{
+    min-width: 90vw;
+    min-height: 100vh;
+    border: 5px solid black;
+    background-image: url(https://www.oktoberfesttours.travel/wp-content/uploads/2018/12/Oktoberfest-Munich.jpg);
+}
+
+.article{
+    text-align: center;
+    color: rgb(235, 148, 34);
+    text-shadow: 1px 1px black;
+}
+
+.card{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgba(240, 248, 255, 0.192);
+    border: 2px solid black;
+    text-align: center;
+    background: linear-gradient(#92b490, #c4d340);
+}
+
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+}
